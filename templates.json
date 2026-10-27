@@ -702,6 +702,26 @@
         "usecase": "Mobile"
       },
       {
+        "description": "Next.js app that swaps tokens from Solana to EVM networks with the SODAX SDK",
+        "id": "gh:solana-foundation/templates/community/sodax-cross-network-swap",
+        "image": "community/sodax-cross-network-swap/og-image.png",
+        "keywords": [
+          "solana",
+          "sodax",
+          "swap",
+          "cross-network",
+          "intents",
+          "defi",
+          "nextjs",
+          "react",
+          "typescript"
+        ],
+        "name": "sodax-cross-network-swap",
+        "path": "community/sodax-cross-network-swap",
+        "displayName": "SODAX Cross-Network Swap",
+        "usecase": "DeFi"
+      },
+      {
         "description": "Solana Actions/Blinks template with Rust Axum backend and Next.js frontend",
         "id": "gh:solana-foundation/templates/community/solana-blinks-axum",
         "image": "community/solana-blinks-axum/og-image.png",

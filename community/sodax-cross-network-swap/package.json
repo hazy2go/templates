@@ -1,0 +1,55 @@
+{
+  "name": "sodax-cross-network-swap",
+  "displayName": "SODAX Cross-Network Swap",
+  "description": "Next.js app that swaps tokens from Solana to EVM networks with the SODAX SDK",
+  "usecase": "DeFi",
+  "keywords": [
+    "solana",
+    "sodax",
+    "swap",
+    "cross-network",
+    "intents",
+    "defi",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "create-solana-dapp": {
+    "instructions": [
+      "Install dependencies:",
+      "+{pm} install",
+      "",
+      "Optional: set your own Solana RPC endpoint:",
+      "+cp .env.example .env.local",
+      "",
+      "Start the development server:",
+      "+{pm} dev"
+    ]
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "ci": "tsc --noEmit && vitest run && next build"
+  },
+  "dependencies": {
+    "@sodax/dapp-kit": "^2.2.0",
+    "@sodax/sdk": "^2.2.0",
+    "@sodax/wallet-sdk-react": "^2.2.0",
+    "@tanstack/react-query": "^5.90.2",
+    "next": "^16.4.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  }
+}

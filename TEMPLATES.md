@@ -314,6 +314,14 @@ Templates maintained by the Solana community
 
 `solana` `phantom` `wallet` `embedded-wallet` `react-native` `expo` `mobile` `typescript` `oauth` `authentication`
 
+### [sodax-cross-network-swap](community/sodax-cross-network-swap)
+
+`gh:solana-foundation/templates/community/sodax-cross-network-swap`
+
+> Next.js app that swaps tokens from Solana to EVM networks with the SODAX SDK
+
+`solana` `sodax` `swap` `cross-network` `intents` `defi` `nextjs` `react` `typescript`
+
 ### [solana-blinks-axum](community/solana-blinks-axum)
 
 `gh:solana-foundation/templates/community/solana-blinks-axum`
